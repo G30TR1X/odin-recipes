@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 #foodImage {
     display: block;
     margin-left: auto;
@@ -19,5 +23,40 @@ body {
 }
 
 .back {
-    margin: 0 auto;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.back button {
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 30, 200, 0.9);
+}
+
+.back button:hover {
+    background-color: rgba(0, 0, 50, 0.1);
+}
+
+.description , .ingredient, .step, .recipeList {
+    border-radius: 10px;
+    border: 2px solid;
+    margin: 5px auto;
+    padding: 10px;
+    width: 300px;
+}
+
+.description , .ingredient, .step {
+    width: 800px;
+}
+
+.description {
+    background-color: gainsboro;
+}
+
+.ingredient {
+    background-color: burlywood;
+}
+
+.step {
+    background-color: greenyellow;
 }
